@@ -237,6 +237,25 @@
         letter-spacing: 1px;
         font-weight: bold;
     }
+
+    .burger-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (max-width: 768px) {
+        .section-content {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
 </style>
 
 <body>
